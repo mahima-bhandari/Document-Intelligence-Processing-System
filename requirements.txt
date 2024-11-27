@@ -1,0 +1,7 @@
+streamlit
+transformers
+gtts
+PyPDF2
+python-docx
+tf-keras
+tensorflow
