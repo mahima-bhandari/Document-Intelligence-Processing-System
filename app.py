@@ -8,6 +8,11 @@ import tempfile
 import textwrap
 from PIL import Image
 import io
+import logging
+
+logging.basicConfig(level=logging.DEBUG)
+logging.debug("Checkpoint: App Started")
+
 
 # Initialize image captioner pipeline
 captioner = pipeline("image-to-text", model="Salesforce/blip-image-captioning-base")
